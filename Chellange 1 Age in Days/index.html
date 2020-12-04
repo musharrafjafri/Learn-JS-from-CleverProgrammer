@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age in Days</title>
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Challenge1: Age in Days</h2>
+        <hr />
+        <div class="button-container">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <hr />
+        <h5 id="result"></h5>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
